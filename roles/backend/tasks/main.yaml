@@ -54,9 +54,9 @@
     community.mysql.mysql_db:
       state: import
       name: all
-      login_user: root
-      login_password: ExpenseApp@1
-      login_host: mysql.pavanreddy.store
+      login_user: "{{ LOGIN_USER }}"
+      login_password: "{{ LOGIN_PASSWORD }}"
+      login_host: "{{ LOGIN_HOST }}"
       target: /app/schema/backend.sql
 
   - name: daemon reload and restart service
