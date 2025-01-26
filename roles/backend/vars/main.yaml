@@ -1,3 +1,6 @@
 MYSQL_HOST: mysql.pavanreddy.store
 LOGIN_USER: root
 LOGIN_PASSWORD: ExpenseApp@1
+APP_LOCATION: /app
+COMPONENT: backend
+
