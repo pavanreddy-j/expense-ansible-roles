@@ -1,6 +1,5 @@
-- name: congigure MySQL server
+- name: congiguring MySQL server
   hosts: mysql
   become: yes
   roles:
   - mysql
-  
